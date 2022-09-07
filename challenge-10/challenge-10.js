@@ -46,8 +46,7 @@
     */
     
     function isOperatorValid(operator) {
-        var result = operations[operator] !== undefined ? true : false;
-        return result;
+        return !!operations[operator] ;
     }
 
      console.log(isOperatorValid('%'));
