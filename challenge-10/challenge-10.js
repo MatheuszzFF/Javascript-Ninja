@@ -144,30 +144,5 @@
     
     console.log(showOperationMessage(operationSignal,number1,number2), sum(number1,number2))
 
-    /*
-    Repita desde o "PASSO 2" com as operações de subtração, multiplicação,
-    divisão e resto. Crie variáveis com os nomes "subtraction",
-    "multiplication", "division" e "mod".
-    */
-    // ?
-
-    /*
-    Repita o PASSO 2 novamente, mas passando um operador inválido, para ver se
-    a mensagem de erro será mostrada no console.
-    */
-    // ?
 
 })();
-function toggleClass(actionItem,toggleItem,theClass) {
-    var receiveAction = document.querySelector(actionItem);
-    var receiveToggle = document.querySelector(toggleItem);
-    
-
-    receiveAction.addEventListener('click', () => {
-        receiveToggle.classList.toggle(theClass)
-    })
-
-    
-}
-
-toggleClass('.item','.toggle','active');
